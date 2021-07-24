@@ -12,7 +12,7 @@ from string import ascii_uppercase
 
 def start_bot():
 
-    bot = telebot.TeleBot(settings.BOT_TOKEN)
+    bot = telebot.TeleBot("1812204893:AAFSWOjSA4qki_jeG81PQXTD5bEOGrvnQYo")
 
     @bot.message_handler(commands=['start'])
     def start(message):
